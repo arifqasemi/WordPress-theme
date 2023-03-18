@@ -1,0 +1,45 @@
+header{
+    background-color: black;
+    height: 90px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+.menu li a{
+    list-style: none;
+    color: white;
+}
+
+.sub-menu{
+    display: none;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    top:10%;
+    width: 150px;
+    height: auto;
+    
+}
+
+.sub-menu li{
+    list-style: none;
+    margin-left: -90px;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.sub-menu li a{
+    color:white;
+
+}
+#menu-item-13:hover .sub-menu{
+ display: block;
+}
+
+
